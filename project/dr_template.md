@@ -30,7 +30,6 @@ Identify your zones here:
 | udacity-cluster nodes | nodes in Kubernetes cluster for monitoring stack | t3.medium | 4 | 2 instances in Multi AZ. us-east-2 and us-west-1 |
 | RDS cluster for Ubuntu-web | Aurora MySQL database cluster is used by web service | Aurora MySQL | 2 | Primary RDS is running on 2 instances in us-east-2 region and replicates to secondary RDS that is running on 2 instances in us-west-1 region. Both RDS has a 5 day backup window. |
 | RDS Cluster Instance | used to store application data | db.t2.small | 4 | Primary RDS is running on 2 instances in us-east-2 region and replicates to secondary RDS that is running on 2 instances in us-west-1 region. Both RDS has a 5 day backup window. |
-| DB Instances | A DB instance is an isolated database environment in the cloud| db.t3.micro | allocated storage : 10 | 
 | Prometheus and Grafana | used for monitoring and alerting | - | 1 | Installation done |
 | SSH keys | Used to get access to EC2 instances | - | 1 | Shall be stored securely. |
 
