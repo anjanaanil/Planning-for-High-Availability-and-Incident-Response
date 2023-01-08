@@ -37,10 +37,19 @@ Identify your zones here:
 
 ### Descriptions
 More detailed descriptions of each asset identified above.
-Amazon Machine Image (AMI): virtual machine images stored in AWS
-Availability zones (AZ):this refers to localized zones for each region. A region may have 3 availability zones that are spaced maybe 50 miles apart.
-EC2: the AWS service that runs and manages virtual machines running in the AWS cloud.
-VPC (virtual private cloud): an AWS term referring to the network setup in a particular region for your infrastructure. 
+- Amazon Machine Image (AMI): virtual machine images stored in AWS
+- Availability zones (AZ):this refers to localized zones for each region. A region may have 3 availability zones that are spaced maybe 50 miles apart.
+- Cluster: a generic term used to describe a group of servers or services working together to provide a service to spread the node among nodes and provide availability if one fails.
+- Infrastructure as Code (IaC): a method for deploying infrastructure or changes to a provider either on-prem or cloud where all resources are defined via code.
+- Load balancer: hardware or virtual appliance or software that performs traffic direction to many backend services. Load balancers are generally the entry points for resources as they can direct and balance all requests to many backend services.
+- EC2: the AWS service that runs and manages virtual machines running in the AWS cloud.
+- S3 bucket:Amazon S3 is an object storage service that stores data as objects within buckets. An object is a file and any metadata that describes the file. A bucket is a container for objects
+- RDS Cluster : s a distributed relational database service by Amazon Web Services
+- Instance : a generic term referring to a virtual machine, a database node, or any type of resource that provides a service.
+- SSH : refers to a key that is used to authenticate to a server to perform administrative tasks on the server. 
+- Prometheus : an industry-standard tool for collecting and querying metrics.
+- Grafana: an industry-standard tool for visualizing metrics in graph format.
+- VPC (virtual private cloud): an AWS term referring to the network setup in a particular region for your infrastructure. 
 
 ## DR Plan
 ### Pre-Steps:
